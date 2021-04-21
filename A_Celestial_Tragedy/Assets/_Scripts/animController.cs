@@ -13,10 +13,10 @@ public class animController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {if(Input.GetKeyDown("1"))
-            anim.Play("CameraMovement");
-            
-
-    }
+    void Update() {
+        if(Input.GetKeyDown(KeyCode.Space))
+          {anim.Play("CameraMovement");
+         }
+       
+    }  
 }
