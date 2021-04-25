@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/INT_House.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/_Scenes/Main_Rooftop.unity
+    guid: 2a535e1b88de53a4981411b2771e6a99
+  - enabled: 1
+    path: Assets/_Scenes/Graveyard.unity
+    guid: dc490f75b2a19484eb223614aba270e1
   m_configObjects: {}
