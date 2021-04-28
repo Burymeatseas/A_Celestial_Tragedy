@@ -10,11 +10,14 @@ public class Dialog : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
-
+    AudioSource alertSFX;
     public GameObject continueButton;
+    public int audioIndex;
+    public AudioClip clip;
+
     void Start()
     {
-
+        alertSFX = GetComponent<AudioSource>();
         StartCoroutine(Type());
     }
 
@@ -23,6 +26,21 @@ public class Dialog : MonoBehaviour
 
         if(textDisplay.text == sentences[index]){
              continueButton.SetActive(true);
+        }
+        if (index == audioIndex)
+        {
+            if (alertSFX != null )
+            {
+                if (!alertSFX.isPlaying)
+                {
+                    alertSFX.clip = clip;
+                    alertSFX.Play();
+
+                }
+                
+            }
+            
+     
         }
     }
 
