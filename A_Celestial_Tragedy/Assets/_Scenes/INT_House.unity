@@ -5693,7 +5693,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6e981fb5aaf49fa439c11ced2c9037d0,
         type: 3}
       propertyPath: m_Name
-      value: Ch37_nonPBR@Sitting Laughing
+      value: Nicole
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e981fb5aaf49fa439c11ced2c9037d0, type: 3}
@@ -5989,7 +5989,7 @@ MonoBehaviour:
   audioIndex: 3
   clip: {fileID: 8300000, guid: 4a4e101c80ae84b2099c6f825f6214b1, type: 3}
   connorAnimator: {fileID: 1032832040}
-  char2Anim: {fileID: 0}
+  char2Anim: {fileID: 697329325}
 --- !u!4 &1743290025
 Transform:
   m_ObjectHideFlags: 0

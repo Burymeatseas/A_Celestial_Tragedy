@@ -43,6 +43,7 @@ public class Dialog : MonoBehaviour
             }
         }
         connorAnimator.SetInteger("seqNumber", index);
+        char2Anim.SetInteger("seqNumber", index);
     }
 
     IEnumerator Type()
