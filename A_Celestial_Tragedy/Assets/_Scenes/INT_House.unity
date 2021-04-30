@@ -5987,7 +5987,7 @@ MonoBehaviour:
   typingSpeed: 0.02
   continueButton: {fileID: 402091222}
   audioIndex: 3
-  clip: {fileID: 8300000, guid: 4a4e101c80ae84b2099c6f825f6214b1, type: 3}
+  clip: {fileID: 8300000, guid: f95be77238b2641b1ba530bf2d94b04f, type: 3}
   connorAnimator: {fileID: 1032832040}
   char2Anim: {fileID: 697329325}
 --- !u!4 &1743290025

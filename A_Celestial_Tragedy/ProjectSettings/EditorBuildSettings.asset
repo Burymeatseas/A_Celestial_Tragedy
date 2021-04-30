@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Graveyard.unity
     guid: dc490f75b2a19484eb223614aba270e1
+  - enabled: 1
+    path: Assets/_Scenes/Final Scene.unity
+    guid: d7a14589f83d64a27942a684d3ffdc3e
   m_configObjects: {}
