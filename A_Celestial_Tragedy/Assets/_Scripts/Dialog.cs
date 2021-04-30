@@ -14,6 +14,8 @@ public class Dialog : MonoBehaviour
     public GameObject continueButton;
     public int audioIndex;
     public AudioClip clip;
+    [SerializeField] Animator connorAnimator;
+    [SerializeField] Animator char2Anim;
 
     void Start()
     {
@@ -39,9 +41,8 @@ public class Dialog : MonoBehaviour
                 }
                 
             }
-            
-     
         }
+        connorAnimator.SetInteger("seqNumber", index);
     }
 
     IEnumerator Type()
